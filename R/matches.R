@@ -19,7 +19,7 @@ uss_make_matches <- function(data_engsoc, country) {
     tibble::as_tibble() %>%
     dplyr::transmute(
       country = as.character(country),
-      tier = as.integer(tier),
+      tier = as.factor(tier),
       season = as.integer(Season),
       date = as.Date(Date),
       home = as.character(home),
