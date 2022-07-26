@@ -13,6 +13,8 @@
 #' @examples
 #' uss_make_matches(engsoccerdata::spain, "Spain")
 
+`%>%` <- magrittr::`%>%`
+
 uss_make_matches <- function(data_engsoc, country) {
   result <-
     data_engsoc %>%

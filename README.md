@@ -9,7 +9,7 @@
 <!-- badges: end -->
 
 The goal of ussie is to work with European football league data supplied
-by the engsoccerdata package.
+by the engsoccerdata package. fgf
 
 ## Installation
 
